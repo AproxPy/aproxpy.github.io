@@ -1,11 +1,10 @@
-/* Skin PS5 blanc/rose pour GamepadViewer (skin PS4 + &css=)
-   Images attendues dans : https://aproxpy.github.io/PS5_Display_Pics/
-   Source : structure du repo justEhCupcake, CSS nettoye */
-
+/*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/White_SkinNo-Buttons.png);
+    background: url(White_SkinNo_Buttons.png);
     height: 700px;
     width: 1200px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
 .ds4.disconnected div {
@@ -23,7 +22,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Trigger_Pressed.png);
+    background: url(Trigger_Pressed.png);
     opacity: 0;
 }
 
@@ -39,7 +38,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Bumper.png) no-repeat;
+    background: url(Bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -56,6 +55,8 @@
 }
 
 .ds4 .bumper.left {
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
     float: left;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Touchpad.png) no-repeat center;
+    background: url(Touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -85,9 +86,21 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Home.png) no-repeat center;
+    background: url(Home.png) no-repeat center;
 }
 
+.ds4 .p0{
+background-position: 0 -6px;
+}
+.ds4 .p1{
+background-position: 0 -28px;
+}
+.ds4 .p2{
+background-position: 0 -49px;
+}
+.ds4 .p3{
+background-position: 0 -70px;
+}*/
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -97,34 +110,37 @@
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Select.png);
+    background: url(Select.png);
     width: 26px;
     height: 43px;
     opacity: 0;
 }
-
 .ds4 .start {
     position: absolute;
     left: 546px;
     bottom: -30px;
 }
-
 .ds4 .back {
     position: absolute;
     left: 170px;
     bottom: -30px;
 }
 
+
 .ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
     opacity: 1;
 }
 
 .ds4 .back {
     float: left;
+    /* width: 28px; */
 }
 
 .ds4 .start {
     float: right;
+    /* width: 28px; */
     background-position: 0px 0;
 }
 
@@ -140,11 +156,12 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/FaceButtons.png);
+    background: url(FaceButtons.png);
 }
 
 .ds4 .button.pressed {
     background-position-y: 55px;
+    /* margin-top: 5px; */
 }
 
 .ds4 .a {
@@ -180,7 +197,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Sticks.png);
+    background: url(Sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -212,7 +229,7 @@
 }
 
 .ds4 .face {
-    background: url(https://aproxpy.github.io/PS5_Display_Pics/Dpad.png);
+    background: url(Dpad.png);
     position: absolute;
 }
 
@@ -251,6 +268,7 @@
 }
 
 .ds4 .face.pressed {
+    /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
@@ -258,8 +276,12 @@
     margin-top: -300px;
 }
 
+/*END PS4 Controller Styling*/
+
 .ds4.white .back, .ds4 .start {
-    background-image: url(https://aproxpy.github.io/PS5_Display_Pics/Start.png);
+    background-image: url(Start.png);
     width: 26px;
     height: 43px;
 }
+
+/*END PS4 White Controller Styling*/
