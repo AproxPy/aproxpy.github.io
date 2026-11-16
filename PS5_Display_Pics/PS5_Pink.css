@@ -1,9 +1,9 @@
 /* Skin PS5 blanc/rose pour GamepadViewer (skin PS4 + &css=)
-   Images attendues dans : https://aproxpy.github.io/ps5/
+   Images attendues dans : https://aproxpy.github.io/PS5_Display_Pics/
    Source : structure du repo justEhCupcake, CSS nettoye */
 
 .controller.ds4 {
-    background: url(https://aproxpy.github.io/ps5/White_SkinNo_Buttons.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/White_SkinNo_Buttons.png);
     height: 700px;
     width: 1200px;
 }
@@ -23,7 +23,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://aproxpy.github.io/ps5/Trigger_Pressed.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Trigger_Pressed.png);
     opacity: 0;
 }
 
@@ -39,7 +39,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(https://aproxpy.github.io/ps5/Bumper.png) no-repeat;
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://aproxpy.github.io/ps5/Touchpad.png) no-repeat center;
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -85,7 +85,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://aproxpy.github.io/ps5/Home.png) no-repeat center;
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Home.png) no-repeat center;
 }
 
 .ds4 .arrows {
@@ -97,7 +97,7 @@
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://aproxpy.github.io/ps5/Select.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Select.png);
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -140,7 +140,7 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://aproxpy.github.io/ps5/FaceButtons.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/FaceButtons.png);
 }
 
 .ds4 .button.pressed {
@@ -180,7 +180,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://aproxpy.github.io/ps5/Sticks.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -212,7 +212,7 @@
 }
 
 .ds4 .face {
-    background: url(https://aproxpy.github.io/ps5/Dpad.png);
+    background: url(https://aproxpy.github.io/PS5_Display_Pics/Dpad.png);
     position: absolute;
 }
 
@@ -259,7 +259,7 @@
 }
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(https://aproxpy.github.io/ps5/Start.png);
+    background-image: url(https://aproxpy.github.io/PS5_Display_Pics/Start.png);
     width: 26px;
     height: 43px;
 }
